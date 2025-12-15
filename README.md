@@ -41,6 +41,10 @@ There are three LEDs to indicate solar tracker status.
  - 🔴 Red LED is blinking when the system is tracking for the best light source.
  - 🟢🟡 Both green and yellow LEDs are lit simultaneously when the light source tracking is optimal. 
 
+## Button for ISR
+- Microswitch push button
+- Resistor and a capacitor for debouncing??? 
+
 ## ISR Interrupt Service Routine reset
 
 System can be resetted and initialized to start by pushing button for three seconds period.
