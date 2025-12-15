@@ -29,7 +29,7 @@ This Arduino nano based project uses light depended resistors to control and tur
  - Arduino nano
  - USB-A (male) to micro-USB (male) cable for programming
  - Arduino IDE software for programming
- 
+
 ## LDRs and resistors
 
 Four LDRs (ohm?) are installed with resistors...
@@ -40,7 +40,9 @@ Project utilizes two [DMS-MG90 micro servos](https://www.dfrobot.com/product-133
 
 ## LEDs
 
-There are three LEDs to indicate solar tracker status.
+There are three LEDs to indicate solar tracker status. Each one has properly sized current limiting resistor.
+>[!CAUTION]
+> ADD FORMULA FOR SIZING CURRENT LIMITING RESISTOR HERE!!      
 
  - 🟢 Green LED lights on when the system initialized and running.
  - 🔴 Red LED is blinking when the system is tracking for the best light source.
