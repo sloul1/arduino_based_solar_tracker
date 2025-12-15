@@ -4,7 +4,7 @@
 
 # Arduino based dual axis solar tracker ☀️
 
-This Arduino nano based project uses light depended resistors to control and turn two servomotors to brightest light source.
+This Arduino nano based project uses light depended resistors to control and turn two servomotors to the brightest light source.
 
 ## LDRs and resistors
 
