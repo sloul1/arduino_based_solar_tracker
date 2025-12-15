@@ -36,7 +36,7 @@ This Arduino nano based project uses light depended resistors to control and tur
 
 ## Servo motors
 
-Project utilizes two [DMS-MG90 micro servos](https://www.dfrobot.com/product-1338.html). Scroll page down for the specifications. [Motor dimensions](https://github.com/Arduinolibrary/DFRobot_DMS_MG90/blob/master/DMS-MG90%20Servo%20Dimension.pdf) at GitHub.
+Project utilizes two `DMS-MG90 micro servos`. Scroll [specifiation page](https://www.dfrobot.com/product-1338.html) down for the details. [Motor dimensions](https://github.com/Arduinolibrary/DFRobot_DMS_MG90/blob/master/DMS-MG90%20Servo%20Dimension.pdf) at GitHub.
 
 ## LEDs
 
