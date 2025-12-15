@@ -32,7 +32,7 @@ This Arduino nano based project uses light depended resistors to control and tur
 
 ## LDRs and resistors
 
-Four LDRs (ohm?) are installed with resistors...
+4 x **L**ight **D**ependent **R**esistors (ohm?) are installed with resistor for each...
 
 ## Servo motors
 
@@ -40,9 +40,9 @@ Project utilizes two [DMS-MG90 micro servos](https://www.dfrobot.com/product-133
 
 ## LEDs
 
-There are three LEDs (red, yellow and green) to indicate solar tracker status. Each LED has resistor that limits maximum current to 15mA. Current limiting resistors are sized according to [datasheet](https://www.pcboard.ca/5mm-frosted-lens-led).
+There are three LEDs (red, yellow and green) to indicate solar tracker status. Each LED has resistor that limits maximum current to 15mA. Current limiting resistors are sized according to [specification](https://www.pcboard.ca/5mm-frosted-lens-led).
 
-As we can see from the datasheet specification red and yellow LED has lower Typical Voltage and Forward Voltage.
+As we can see from the datasheet specification below red and yellow LED has lower *`Typical Voltage`* and *`Forward Voltage`*.
 
 
  
@@ -72,7 +72,7 @@ $R=\frac{{5V-2V}}{0.015A}=200\Omega$
 -> 220 𝛺 resistor will be used.
 
 ...and resistor for green LED:  
-  
+
 ​
 $R=\frac{{5V-2.8V}}{0.015A}≈146,6\Omega$  
 -> 150 𝛺 resistor will be used.      
