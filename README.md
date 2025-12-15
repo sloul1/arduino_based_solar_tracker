@@ -40,9 +40,42 @@ Project utilizes two [DMS-MG90 micro servos](https://www.dfrobot.com/product-133
 
 ## LEDs
 
-There are three LEDs to indicate solar tracker status. Each one has properly sized current limiting resistor.
->[!CAUTION]
-> ADD FORMULA FOR SIZING CURRENT LIMITING RESISTOR HERE!!      
+There are three LEDs (red, yellow and green) to indicate solar tracker status. Each LED has resistor that limits maximum current to 15mA. Current limiting resistors are sized according to [datasheet](https://www.pcboard.ca/5mm-frosted-lens-led).
+
+As we can see from the datasheet specification red and yellow LED has lower Typical Voltage and Forward Voltage.
+
+
+ 
+| Led colour:              | RF0991-08 - Red    | YF0991-06 - Yellow | GF0991-07 - Green  |
+|--------------------------|--------------------|--------------------|--------------------|
+| Color Frequency:         | 628nm              | 590nm              | 525nm              |
+| Luminous Intensity:      | 5,000mcd           | 3,200mcd           | 23,200mcd          |
+| Viewing Angle:           | Diffused Lens      | Diffused Lens      | Diffused Lens      |
+| Forward Voltage:         | 1.9v - 2.1v        | 1.9v - 2.1v        | 2.7v - 3.0v        |
+| Typical Voltage:         | 2.0v               | 2.0v               | 2.8v               |
+| Typical Forward Current: | 20mA               | 20mA               | 20mA               |
+| Style:                   | Round 5mm - T1 3/4 | Round 5mm - T1 3/4 | Round 5mm - T1 3/4 |
+| Lens:                    | Frosted            | Frosted            | Frosted            |
+
+This has to be acknowledged when sizing currency limiting resistor.
+
+>[!NOTE]
+> Following formula can be used for sizing currency limiting resistor for single LED in series.
+
+
+
+$$ R=\frac{V-V_{f}}{I_{F}} $$
+Resistor sizing for red and yellow LEDs: 
+
+$ R=\frac{{5V - 2V}}{0.015A} = 200 \Omega $   
+
+-> 220 𝛺 resistor will be used.
+
+...and for green LED:  
+​
+$R = (5V - 2.8V) / 0.015A ≈ 146,6\ \Omega$  
+-> 150 𝛺 resistor will be used.      
+
 
  - 🟢 Green LED lights on when the system initialized and running.
  - 🔴 Red LED is blinking when the system is tracking for the best light source.
