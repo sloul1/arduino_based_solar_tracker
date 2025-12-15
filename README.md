@@ -57,13 +57,14 @@ As we can see from the datasheet specification below red and yellow LED has lowe
 | Style:                   | Round 5mm - T1 3/4 | Round 5mm - T1 3/4 | Round 5mm - T1 3/4 |
 | Lens:                    | Frosted            | Frosted            | Frosted            |
 
-This has to be acknowledged when sizing currency limiting resistor.
 
->[!NOTE]
-> Following formula can be used for sizing currency limiting resistor for single LED in series.  
+>[!NOTE]  
+> Following formula is used for sizing currency limiting resistor for single LED in series.  
 
 
 $R=\frac{V-V_{f}}{I_{F}}$  
+
+When selecting current limiting resistors, variations in LED specifications are taken into account as follows.
 
 Resistor sizing for red and yellow LEDs: 
 
@@ -75,6 +76,7 @@ $R=\frac{{5V-2V}}{0.015A}=200\Omega$
 
 ​
 $R=\frac{{5V-2.8V}}{0.015A}≈146,6\Omega$  
+
 -> 150 𝛺 resistor will be used.      
 
 
