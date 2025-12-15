@@ -25,6 +25,11 @@ This Arduino nano based project uses light depended resistors to control and tur
 
 - Cardboard
 
+## Arduino nano
+ - Arduino nano
+ - USB-A (male) to micro-USB (male) cable for programming
+ - Arduino IDE software for programming
+ 
 ## LDRs and resistors
 
 Four LDRs (ohm?) are installed with resistors...
