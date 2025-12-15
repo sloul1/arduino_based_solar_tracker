@@ -14,7 +14,7 @@ Four LDRs (ohm?) are installed with resistors...
 
 ## Servo motors
 
-Project utilizes two [DMS-MG90 micro servos](https://www.dfrobot.com/product-1338.html). [Dimensions at GitHub](https://github.com/Arduinolibrary/DFRobot_DMS_MG90/blob/master/DMS-MG90%20Servo%20Dimension.pdf)
+Project utilizes two [DMS-MG90 micro servos](https://www.dfrobot.com/product-1338.html). Scroll page down for the specifications. [Dimensions at GitHub](https://github.com/Arduinolibrary/DFRobot_DMS_MG90/blob/master/DMS-MG90%20Servo%20Dimension.pdf)
 
 ## LEDs
 
