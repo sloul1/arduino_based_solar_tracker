@@ -40,7 +40,7 @@ Project utilizes two [DMS-MG90 micro servos](https://www.dfrobot.com/product-133
 
 ## LEDs
 
-There are three LEDs (red, yellow and green) to indicate solar tracker status. Each LED has resistor that limits maximum current to 15mA. Current limiting resistors are sized according to [specification](https://www.pcboard.ca/5mm-frosted-lens-led).
+There are three LEDs (red, yellow and green) to indicate solar tracker status. Each LED has resistor that limits maximum current to 15mA. Current limiting resistors are sized according to [specification](https://www.pcboard.ca/5mm-frosted-lens-led/).
 
 As we can see from the datasheet specification below red and yellow LED has lower *`Typical Voltage`* and *`Forward Voltage`*.
 
