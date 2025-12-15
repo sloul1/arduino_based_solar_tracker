@@ -1,6 +1,14 @@
 >[!CAUTION]  
 >WIP as in Work In Progress
->This warning will be removed only after when this report is finished. 
+>This warning will be removed only after when this report is finished.  
+
+<p align="center">
+<img src="media/working_chaos.jpg" alt="Check product name and model name from settings about menu" style="width:100%; height:auto;">  
+</p>
+
+<p align="center">
+More chaos, more creativity? 
+</p>
 
 # Arduino based dual axis solar tracker ☀️
 
