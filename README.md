@@ -60,20 +60,21 @@ As we can see from the datasheet specification red and yellow LED has lower Typi
 This has to be acknowledged when sizing currency limiting resistor.
 
 >[!NOTE]
-> Following formula can be used for sizing currency limiting resistor for single LED in series.
+> Following formula can be used for sizing currency limiting resistor for single LED in series.  
 
 
+$R=\frac{V-V_{f}}{I_{F}}$  
 
-$$ R=\frac{V-V_{f}}{I_{F}} $$
 Resistor sizing for red and yellow LEDs: 
 
-$ R=\frac{{5V - 2V}}{0.015A} = 200 \Omega $   
+$R=\frac{{5V-2V}}{0.015A}=200\Omega$   
 
 -> 220 𝛺 resistor will be used.
 
-...and for green LED:  
+...and resistor for green LED:  
+  
 ​
-$R = (5V - 2.8V) / 0.015A ≈ 146,6\ \Omega$  
+$R=\frac{{5V-2.8V}}{0.015A}≈146,6\Omega$  
 -> 150 𝛺 resistor will be used.      
 
 
