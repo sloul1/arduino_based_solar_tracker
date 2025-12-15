@@ -36,3 +36,21 @@ Both `LDR raw values` and `LDR percentual values` are printed out (3 seconds at 
 
 ### Help?
 (LCD shows system status and help every time system starts??)
+
+## Connections
+
+## Code
+
+## Angle limits considerations in Finland for the servos
+
+Angle limits are considered by the installation location of the solar tracker. The latitude of Finland ranges from approximately 60°N in the south to over 70°N in the north. This high latitude means that the sun is low on the horizon for much of the year, particularly during winter months comparing to summer. ```In Finland there isn't too much solar energy harvested In the winter time``` Check the [Fingrid statistics](https://www.fingrid.fi/en/electricity-market-information/solar-power) for the annual solar power generation in Finland.     
+
+Latitude Range: 
+ 
+    Southern Finland (e.g., Helsinki at about 60°N): The sun's maximum elevation angle can reach up to approximately 52.5 degrees in summer and as low as around 7 degrees in winter.
+    Northern Finland (e.g., Rovaniemi at about 66.5°N): The sun's maximum elevation angle is much lower, reaching around 30 degrees in summer and barely rising above the horizon in winter.
+
+Vertical Angle Limits:
+
+    Summer: In southern parts of Finland, servomotors should be able to adjust between roughly 7 degrees (during sunrise) to about 52-53 degrees (at solar noon during the summer solstice).
+    Winter: The vertical range is much smaller due to the low sun angle. In southern Finland, this might be from just above the horizon (~7 degrees) to around 15-20 degrees.
