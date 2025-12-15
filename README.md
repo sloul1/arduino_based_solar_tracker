@@ -14,7 +14,16 @@ More chaos, more creativity?
 
 This Arduino nano based project uses light depended resistors to control and turn two servo motors to the brightest light source.
 
-## Parts
+## Tools
+- Laptop for programming
+- Soldering iron
+- Phillips head screwdrivers
+- Hot glue gun
+- Scissors
+
+## Parts and materials
+
+- Cardboard
 
 ## LDRs and resistors
 
