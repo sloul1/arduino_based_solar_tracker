@@ -79,7 +79,7 @@ $R=\frac{{5V-2.8V}}{0.015A}≈146,6\Omega$
 
 -> 150 𝛺 resistor will be used.      
 
-## Led funcionality
+## Led functionality
  - 🟢 Green LED lights on when the system initialized and running.
  - 🔴 Red LED is blinking when the system is tracking for the best light source.
  - 🟢🟡 Both green and yellow LEDs are lit simultaneously when the light source tracking is optimal. 
